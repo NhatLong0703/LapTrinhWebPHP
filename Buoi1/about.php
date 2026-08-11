@@ -1,6 +1,6 @@
 <?php
 $title = $_GET['title'] ?? "Giới thiệu";
-$title = htmlspecialchars($name, ENT_QUOTES,'UTF-8');
+$title = htmlspecialchars($title, ENT_QUOTES,'UTF-8');
 $name = $_GET["name"] ?? "Long";
 $name = htmlspecialchars($name, ENT_QUOTES,'UTF-8');
 ?>
@@ -46,6 +46,10 @@ $name = htmlspecialchars($name, ENT_QUOTES,'UTF-8');
         <div class="project">
             <h3>Dự án trang web du lịch</h3>
             <p>Link repository: <a href="https://github.com/NhatLong0703/BTL_Nhom5" target="_blank">https://github.com/NhatLong0703/BTL_Nhom5</a></p>
+        </div>
+
+        <div class="project">
+
         </div>
     </div>
 </body>
